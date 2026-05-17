@@ -1369,3 +1369,16 @@
   font-size: 13px;
   color: var(--ink-4);
 }
+
+@media (max-width: 600px) {
+  .footerInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footerLogos {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}

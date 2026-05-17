@@ -508,34 +508,34 @@ function WhatWeWant() {
         <div className={styles.whatBody}>
           <p>
             AI의 발전으로 기술 구현 비용은 극적으로 낮아졌습니다. 좋은 Problem을
-            발굴하고, 그 도메인을 깊이 이해한 뒤 확장하는 방식으로
+            발굴하고, 그 도메인을<br />깊이 이해한 뒤 확장하는 방식으로
             아이디어를 기획합니다.
           </p>
 
-          <div className={styles.compare}>
-            <div className={styles.compareCard}>
-              <p className={styles.compareLabel}>다른 개발자들이 고민할 때</p>
-              <p className={styles.compareQuote}>
-                “어떤 스택이 취업에 도움이 될까?”
-              </p>
-            </div>
+        <div className={styles.compare}>
+          <div className={styles.compareCard}>
+            <p className={styles.compareLabel}>다른 개발자들이 고민할 때</p>
+            <p className={styles.compareQuote}>
+              “어떤 스택이 취업에 도움이 될까?”
+            </p>
+          </div>
 
-            <div className={styles.compareDivider} aria-hidden>
-              vs
-            </div>
+          <div className={styles.compareDivider} aria-hidden>
+            vs
+          </div>
 
-            <div className={`${styles.compareCard} ${styles.compareYellow}`}>
-              <p className={styles.compareLabel}>저희는 고민합니다</p>
-              <p className={styles.compareQuote}>
-                “어떻게 사용자를 더 끌어모으고,
-                <br />
-                어떻게 운영 비용을 줄일까?”
-              </p>
-            </div>
+          <div className={`${styles.compareCard} ${styles.compareYellow}`}>
+            <p className={styles.compareLabel}>저희는 고민합니다</p>
+            <p className={styles.compareQuote}>
+              “어떻게 사용자를 더 끌어모으고,
+              <br />
+              어떻게 운영 비용을 줄일까?”
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    </section >
   );
 }
 
@@ -638,7 +638,9 @@ function Footer() {
           <div className={styles.footerLogos}>
             <Image src="/과기부.png" alt="과학기술정보통신부" width={180} height={40} className={styles.orgLogo} />
             <Image src="/iitp.png" alt="IITP" width={120} height={40} className={styles.orgLogo} />
-            <Image src="/ASM.png" alt="Software Maestro" width={160} height={40} className={styles.orgLogo} />
+            <a href="https://www.swmaestro.org/" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center' }}>
+              <Image src="/ASM.png" alt="Software Maestro" width={160} height={40} className={styles.orgLogo} />
+            </a>
           </div>
         </div>
       </div>
