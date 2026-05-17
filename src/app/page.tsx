@@ -109,7 +109,7 @@ function Nav() {
     <nav className={styles.nav}>
       <div className={styles.navInner}>
         <a href="#top" className={styles.navBrand}>
-          <span className={styles.navDot} />
+          <Image src="/logo.png" alt="Dozer Logo" width={24} height={24} className={styles.navLogo} />
           Dozer
         </a>
         <ul className={styles.navLinks}>
@@ -138,9 +138,11 @@ function Hero() {
         </h1>
 
         <p className={styles.heroSub}>
-          제 17기 AI·SW 마에스트로
-          <span className={styles.heroSubAccent}>최연소</span>{" "}
-          팀
+          제 17기{" "}
+          <a href="https://www.swmaestro.org/" target="_blank" rel="noreferrer" className={styles.heroSubLink}>
+            <span className={styles.heroSubAccent}>AI·SW 마에스트로</span>
+          </a>{" "}
+          최연소 팀
         </p>
 
         <div className={styles.heroCtas}>
@@ -522,29 +524,29 @@ function WhatWeWant() {
             아이디어를 기획합니다.
           </p>
 
-        <div className={styles.compare}>
-          <div className={styles.compareCard}>
-            <p className={styles.compareLabel}>다른 개발자들이 고민할 때</p>
-            <p className={styles.compareQuote}>
-              “어떤 스택이 취업에 도움이 될까?”
-            </p>
-          </div>
+          <div className={styles.compare}>
+            <div className={styles.compareCard}>
+              <p className={styles.compareLabel}>다른 개발자들이 고민할 때</p>
+              <p className={styles.compareQuote}>
+                “어떤 스택이 취업에 도움이 될까?”
+              </p>
+            </div>
 
-          <div className={styles.compareDivider} aria-hidden>
-            vs
-          </div>
+            <div className={styles.compareDivider} aria-hidden>
+              vs
+            </div>
 
-          <div className={`${styles.compareCard} ${styles.compareYellow}`}>
-            <p className={styles.compareLabel}>저희는 고민합니다</p>
-            <p className={styles.compareQuote}>
-              “어떻게 사용자를 더 끌어모으고,
-              <br />
-              어떻게 운영 비용을 줄일까?”
-            </p>
+            <div className={`${styles.compareCard} ${styles.compareYellow}`}>
+              <p className={styles.compareLabel}>저희는 고민합니다</p>
+              <p className={styles.compareQuote}>
+                “어떻게 사용자를 더 끌어모으고,
+                <br />
+                어떻게 운영 비용을 줄일까?”
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section >
   );
 }

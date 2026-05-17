@@ -54,12 +54,10 @@
   letter-spacing: -0.02em;
 }
 
-.navDot {
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  background: var(--yellow);
-  box-shadow: 0 0 0 4px var(--yellow-soft);
+.navLogo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .navLinks {
@@ -165,6 +163,19 @@
   color: var(--ink);
   background: linear-gradient(180deg, transparent 62%, var(--yellow) 62%);
   padding: 0 4px;
+}
+
+.heroSubLink {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.heroSubLink:hover {
+  text-decoration-color: var(--ink);
 }
 
 .heroCtas {
