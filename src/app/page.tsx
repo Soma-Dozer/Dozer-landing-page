@@ -624,17 +624,21 @@ function Footer() {
       <div className={styles.container}>
         <div className={styles.footerInner}>
           <div className={styles.footerBrand}>
-            {/* Fallback to simple text if image doesn't exist, or you can add logo.png to public */}
             <div>
               <div className={styles.footerName}>Dozer</div>
               <div className={styles.footerNote}>
-                AI·SW Maestro 17th · Youngest Team
+                AI·SW Maestro 17th
+              </div>
+              <div className={styles.footerCopy} style={{ marginTop: '12px' }}>
+                © {new Date().getFullYear()} Team Dozer
               </div>
             </div>
           </div>
-          <div className={styles.footerCopy}>
-            © {new Date().getFullYear()} Dozer. Built with depth, not speed
-            alone.
+
+          <div className={styles.footerLogos}>
+            <Image src="/과기부.png" alt="과학기술정보통신부" width={180} height={40} className={styles.orgLogo} />
+            <Image src="/iitp.png" alt="IITP" width={120} height={40} className={styles.orgLogo} />
+            <Image src="/ASM.png" alt="Software Maestro" width={160} height={40} className={styles.orgLogo} />
           </div>
         </div>
       </div>
