@@ -339,6 +339,8 @@ function TeamSection() {
                     </Block>
                   )}
 
+                  {selectedMember.id !== "jaewon" && renderAwards()}
+
                   {selectedMember.id === "jaewon" ? (
                     <div style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
                       {selectedMember.experience && selectedMember.experience.length > 0 && (
@@ -384,6 +386,16 @@ function TeamSection() {
                         </Block>
                       )}
                     </>
+                  )}
+
+                  {selectedMember.id !== "jaewon" && selectedMember.certificates && selectedMember.certificates.length > 0 && (
+                    <Block title="Certificates">
+                      <ul className={styles.bullet}>
+                        {selectedMember.certificates.map((c) => (
+                          <li key={c}>{c}</li>
+                        ))}
+                      </ul>
+                    </Block>
                   )}
 
                   {selectedMember.activities && selectedMember.activities.length > 0 && (
@@ -467,9 +479,7 @@ function TeamSection() {
                     </Block>
                   )}
 
-                  {selectedMember.id !== "jaewon" && renderAwards()}
-
-                  {selectedMember.certificates && selectedMember.certificates.length > 0 && (
+                  {selectedMember.id === "jaewon" && selectedMember.certificates && selectedMember.certificates.length > 0 && (
                     <Block title="Certificates">
                       <ul className={styles.bullet}>
                         {selectedMember.certificates.map((c) => (
