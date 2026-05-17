@@ -261,19 +261,40 @@
 .manifestoQuote {
   position: relative;
   margin: 0 auto;
-  max-width: 920px;
+  max-width: 1040px;
   font-size: clamp(28px, 4.5vw, 52px);
   line-height: 1.35;
   font-weight: 800;
   letter-spacing: -0.03em;
   color: var(--ink);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: stretch;
+  gap: clamp(8px, 1.6vw, 20px);
 }
 
-.quoteMark {
-  display: inline-block;
-  margin-right: 6px;
-  color: var(--yellow-deep);
-  font-size: 1.05em;
+.manifestoQuoteText {
+  display: block;
+  align-self: center;
+}
+
+.manifestoBracket {
+  width: clamp(12px, 2vw, 22px);
+  border-color: var(--yellow-deep);
+  border-style: solid;
+  border-top-width: clamp(3px, 0.5vw, 6px);
+  border-bottom-width: clamp(3px, 0.5vw, 6px);
+  border-radius: 2px;
+}
+
+.manifestoBracketLeft {
+  border-left-width: clamp(3px, 0.5vw, 6px);
+  border-right-width: 0;
+}
+
+.manifestoBracketRight {
+  border-left-width: 0;
+  border-right-width: clamp(3px, 0.5vw, 6px);
 }
 
 .markText {
