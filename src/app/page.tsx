@@ -166,12 +166,20 @@ function Manifesto() {
       <div className={styles.container}>
         <p className={styles.manifestoEyebrow}>OUR BELIEF</p>
         <blockquote className={styles.manifestoQuote}>
-          <span className={styles.quoteMark}>"</span>
-          무언가 <em className={styles.markText}>깊게 파본 적</em>이 있는
-          사람이라면,
-          <br />
-          무엇을 하든 성공할 것이다.
-          <span className={styles.quoteMark}>"</span>
+          <span
+            className={`${styles.manifestoBracket} ${styles.manifestoBracketLeft}`}
+            aria-hidden="true"
+          />
+          <span className={styles.manifestoQuoteText}>
+            무언가 <em className={styles.markText}>깊게 파본 적</em>이 있는
+            사람이라면,
+            <br />
+            무엇을 하든 성공할 것이다.
+          </span>
+          <span
+            className={`${styles.manifestoBracket} ${styles.manifestoBracketRight}`}
+            aria-hidden="true"
+          />
         </blockquote>
         <p className={styles.manifestoSub}>
           Dozer는 이 믿음을 공유하는 세 명이 모여 만든 팀입니다.
