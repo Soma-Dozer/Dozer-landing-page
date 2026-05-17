@@ -1,0 +1,310 @@
+{
+  "team": [
+    {
+      "id": "gunwoo",
+      "name": "김건우",
+      "handle": "Aidengoldkr",
+      "role": "PM & Frontend",
+      "oneLiner": "Pain Point 와 제품 방향을 정의하고, 빠르게 BM을 설계합니다.",
+      "affiliation": "단국대학교부속소프트웨어고등학교 6기",
+      "summaryBullets": [
+        "사용자 문제와 제품 방향 정의",
+        "빠른 MVP 형태 구축",
+        "전국 유일 소프트웨어 마에스트로 미성년 연수생"
+      ],
+      "career": [
+        {
+          "period": "2026 ~ 현재",
+          "title": "제 17기 AI·SW마에스트로",
+          "desc": "최연소 연수생"
+        },
+        {
+          "period": "2025 ~ 현재",
+          "title": "단국대학교부속소프트웨어고등학교",
+          "desc": "재학 중 (6기)"
+        },
+        {
+          "period": "2023-2024",
+          "title": "KAIST IP 영재기업인교육원",
+          "desc": "14기 수료"
+        },
+        {
+          "period": "2020-2022",
+          "title": "구리·남양주교육지원청 도농발명교육센터",
+          "desc": "3년과정 수료"
+        }
+      ],
+      "experience": [
+        {
+          "date": "2023",
+          "title": "KAIST IP-CEO 글로벌 기업가정신 연수",
+          "desc": ""
+        },
+        {
+          "date": "2022",
+          "title": "YIP 청소년발명가프로그램",
+          "desc": "수료"
+        },
+        {
+          "date": "2024",
+          "title": "아산유스프러너 창업가의 아뜰리에",
+          "desc": "수료"
+        },
+        {
+          "date": "2023 ~ 2024",
+          "title": "청소년 발명기자단",
+          "desc": "16~17기"
+        },
+        {
+          "date": "2022",
+          "title": "구리·남양주교육지원청 도농발명교육센터",
+          "desc": "수료"
+        },
+        {
+          "date": "2026",
+          "title": "DKSH VERTEX 디지털융합제품개발부",
+          "desc": "회장"
+        }
+      ],
+      "awardsByYear": [
+        {
+          "year": "2025",
+          "items": [
+            "단대소고 생활안전앱 챌린지 - 최우수상 (1위)",
+            "한양대 청소년 오픈SW GAME 코딩대회 - 우수상",
+            "아산유스프러너 데모데이 - 피칭부분 우수상 / 부스부분 장려상 "
+          ]
+        },
+        {
+          "year": "2023",
+          "items": [
+            "KAIST IP 영재기업인 교육원 7월 집중교육 미래기술 팀프로젝트 - 우수상"
+          ]
+        },
+        {
+          "year": "~ 2022",
+          "items": [
+            "구리남양주교육지원청 학생과학발명품경진대회 - 금상",
+            "한국과학교육단체총연합회 한국과학창의력대회 - 동상",
+            "한국발명진흥회·특허청 YIP 청소년 발명가 프로그램 - 장려상 & 수료",
+            "경기도교육감 경기도학생과학발명품경진대회 - 우수상",
+            "과학기술정보통신부 과학의 날 표창 - 장관상",
+            "구리·남양주교육지원청 학생과학발명품 경진대회 - 동상"
+          ]
+        }
+      ],
+      "certificates": [
+        "COS Pro Python 1급 / 2급",
+        "트리즈 전문가 1수준",
+        "특허등록 1건 / 특허출원 12건"
+      ],
+      "socials": [
+        {
+          "label": "Website",
+          "href": "https://aidengoldkr.dev"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/kunwoo-kim-62a9b0284/"
+        }
+      ]
+    },
+    {
+      "id": "cheonwoong",
+      "name": "박천웅",
+      "handle": "Manwoong",
+      "role": "DevSecOps & Full Stack",
+      "oneLiner": "프론트/백엔드를 오가며 시스템 구조와 운영 안정성, 제품의 기반을 설계합니다.",
+      "affiliation": "숭실대학교 AI소프트웨어학부",
+      "image": "",
+      "logo": "",
+      "summaryBullets": [
+        "시스템 구조와 운영 안정성 설계",
+        "프론트/백엔드 아키텍처 통합",
+        "보안 연구 및 인프라 구축"
+      ],
+      "career": [
+        {
+          "period": "2023. 3 ~ 현재",
+          "title": "숭실대학교 소프트웨어학부",
+          "desc": "재학 중"
+        },
+        {
+          "period": "2026. 3 ~ 현재",
+          "title": "AI·SW 마에스트로 17기",
+          "desc": "최우수 SW 인재 육성 정부 사업"
+        },
+        {
+          "period": "2024. 4. 22 ~ 2026. 1. 21",
+          "title": "공군작전사령부 정보보호실",
+          "desc": "정보보호병 (전문특기) 복무"
+        },
+        {
+          "period": "2023. 9 ~ 2024. 3",
+          "title": "화이트 햇 스쿨 1기",
+          "desc": "차세대 보안리더 양성 프로그램"
+        }
+      ],
+      "experience": [
+        {
+          "date": "2026",
+          "title": "Naver Bug Bounty Hall of Fame",
+          "desc": "Naver OO 서비스 취약점 제보",
+          "url": "https://bugbounty.naver.com/hall-of-fame"
+        },
+        {
+          "date": "2025. 8",
+          "title": "2025 APEX 2차 모의훈련 — 블루 5팀 리더",
+          "desc": "NATO 및 인도·태평양 지역 주요 20여개국이 참여하는 국제 사이버 훈련 베타테스터로 참여"
+        },
+        {
+          "date": "2023. 7",
+          "title": "KUCIS 정보보호 온라인 실습교육 수료",
+          "desc": "정보보호산업협회(KISIA) 주관 1·2·3차 과정 수료"
+        }
+      ],
+      "awardsByYear": [
+        {
+          "year": "2026",
+          "items": [
+            "INC0GNITO 아이디어톤 — 장려상"
+          ]
+        },
+        {
+          "year": "2025",
+          "items": [
+            "화이트햇 콘테스트 — 2위, 우수상, 합참의장상 (team. 60군)",
+            "공군 창업경진대회 — 최우수상, IBK기업은행장상 (team. 삐질삐질)",
+            "국방부 창업 경진대회 — 우수상, 국방부장관상 (team. 삐질삐질)",
+            "사이버공격방어대회(CCE) — 공공기관 부문 4위 (team. 곤운)",
+            "도전! K-STARTUP — 28위 (team. Vigilian)"
+          ]
+        },
+        {
+          "year": "2024",
+          "items": [
+            "화이트햇 콘테스트 — 4위 (team. 이곳이네집이다)"
+          ]
+        },
+        {
+          "year": "2023",
+          "items": [
+            "Hspace partners League — 3위 (team. 숭실대학교 ASC)",
+            "숭실대학교 교내 CTF — 비기너 부문 4위 (개인)"
+          ]
+        }
+      ],
+      "certificates": [
+        "AWS Solution Architect — Associate (2025. 1)",
+        "SQLD (2025. 6)",
+        "TOPCIT 수준 4 (2025. 12)",
+        "네트워크 관리사 2급 (2025. 12)",
+        "양식조리기능사 (2025. 12)",
+        "정보처리기능사 (2023. 12)"
+      ],
+      "socials": [
+        {
+          "label": "GitHub",
+          "href": "https://github.com/CheonWoong-Park"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/manwoong/"
+        },
+        {
+          "label": "Email",
+          "href": "mailto:cheonwoong21@naver.com"
+        }
+      ]
+    },
+    {
+      "id": "jaewon",
+      "name": "노재원",
+      "handle": "ian0704",
+      "role": "Core Logic / Problem Solving",
+      "oneLiner": "핵심 로직과 문제 해결의 정확도를 끌어올립니다.",
+      "affiliation": "숭실대학교 컴퓨터학부",
+      "summaryBullets": [
+        "핵심 로직 설계 및 구현",
+        "알고리즘 문제 해결 및 최적화",
+        "정확도 높은 Core Logic 개발"
+      ],
+      "career": [
+        {
+          "period": "2026. 3 ~ 현재",
+          "title": "숭실대학교 컴퓨터학부",
+          "desc": "1학년 재학 중"
+        },
+        {
+          "period": "2026. 3 ~ 현재",
+          "title": "숭실대학교 알고리즘 문제해결 소모임 SCCC",
+          "desc": "회원"
+        },
+        {
+          "period": "2023. 3 ~ 2026. 1",
+          "title": "한국디지털미디어고등학교 웹프로그래밍과",
+          "desc": "졸업"
+        }
+      ],
+      "awardsByYear": [
+        {
+          "year": "2025",
+          "items": [
+            "한국정보올림피아드 1차대회 (고등부) — 은상 (일반고 부문)",
+            "한국정보올림피아드 2차대회 (고등부) — 장려상"
+          ]
+        },
+        {
+          "year": "2024",
+          "items": [
+            "제15회 전국 창의문제 해결능력 경진대회 — 금상 (팀)"
+          ]
+        }
+      ],
+      "socials": [
+        {
+          "label": "BOJ",
+          "href": "https://www.acmicpc.net/user/ian0704"
+        },
+        {
+          "label": "Codeforces",
+          "href": "https://codeforces.com/profile/I_WantToEatYourPancreas"
+        }
+      ],
+      "certificates": [],
+      "experience": [
+        {
+          "date": "",
+          "title": "BOJ 1300+ solved",
+          "desc": "",
+          "url": ""
+        },
+        {
+          "date": "",
+          "title": "Codeforces Expert",
+          "desc": ""
+        }
+      ]
+    }
+  ],
+  "how": [
+    {
+      "n": "01",
+      "person": "김건우",
+      "role": "Product · Frontend",
+      "text": "Pain Point 와 제품 방향을 정의하고, 빠르게 BM을 설계합니다."
+    },
+    {
+      "n": "02",
+      "person": "박천웅",
+      "role": "Full-stack · Infra",
+      "text": "프론트와 백엔드 사이를 오가며 시스템 구조와 운영 안정성, 제품의 기반을 설계합니다."
+    },
+    {
+      "n": "03",
+      "person": "노재원",
+      "role": "Core Logic",
+      "text": "핵심 로직과 문제 해결의 정확도를 끌어올립니다."
+    }
+  ]
+}
