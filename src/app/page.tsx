@@ -254,6 +254,7 @@ function TeamSection() {
             </>
           }
           desc="Dozer는 각자의 작업물을 단순히 넘겨주는 팀이 아니라, 하나의 문제를 정의하고 해결하기 위해 처음부터 끝까지 함께 달리는 팀입니다."
+          descSingleLine
         />
 
         <div className={styles.teamGrid}>
@@ -623,9 +624,10 @@ interface SectionHeadProps {
   eyebrow: string;
   title: ReactNode;
   desc?: string;
+  descSingleLine?: boolean;
 }
 
-function SectionHead({ eyebrow, title, desc }: SectionHeadProps) {
+function SectionHead({ eyebrow, title, desc, descSingleLine }: SectionHeadProps) {
   return (
     <div className={styles.head}>
       <p className={styles.eyebrow}>
@@ -633,7 +635,15 @@ function SectionHead({ eyebrow, title, desc }: SectionHeadProps) {
         {eyebrow}
       </p>
       <h2 className={styles.headTitle}>{title}</h2>
-      {desc && <p className={styles.headDesc}>{desc}</p>}
+      {desc && (
+        <p
+          className={`${styles.headDesc} ${
+            descSingleLine ? styles.headDescSingleLine : ""
+          }`}
+        >
+          {desc}
+        </p>
+      )}
     </div>
   );
 }

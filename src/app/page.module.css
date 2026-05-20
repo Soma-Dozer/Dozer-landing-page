@@ -369,6 +369,18 @@
   max-width: 620px;
 }
 
+.headDescSingleLine {
+  max-width: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 1080px) {
+  .headDescSingleLine {
+    max-width: 620px;
+    white-space: normal;
+  }
+}
+
 /* ============ Team Section (Grid & Profile Cards) ============ */
 .teamGrid {
   display: grid;
