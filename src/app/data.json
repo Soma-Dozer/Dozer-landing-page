@@ -113,15 +113,15 @@
       "id": "cheonwoong",
       "name": "박천웅",
       "handle": "Manwoong",
-      "role": "DevSecOps & Full Stack",
+      "role": "DevSecOps & Infra",
       "oneLiner": "프론트/백엔드를 오가며 시스템 구조와 운영 안정성, 제품의 기반을 설계합니다.",
       "affiliation": "숭실대학교 AI소프트웨어학부",
       "image": "",
       "logo": "",
       "summaryBullets": [
         "시스템 구조와 운영 안정성 설계",
-        "프론트/백엔드 아키텍처 통합",
-        "보안 연구 및 인프라 구축"
+        "프론트/백엔드 개발",
+        "클라우드 인프라 구축"
       ],
       "career": [
         {
