@@ -122,6 +122,9 @@ function Nav() {
           <li>
             <a href="#team">Team</a>
           </li>
+          <li>
+            <a href="https://devfit.app/" target="_blank" rel="noreferrer">DevFit</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -648,6 +651,12 @@ function Footer() {
               <div className={styles.footerName}>Dozer</div>
               <div className={styles.footerNote}>
                 AI·SW Maestro 17th
+              </div>
+              <div className={styles.footerNote} style={{ marginTop: '8px' }}>
+                Product:{" "}
+                <a href="https://devfit.app/" target="_blank" rel="noreferrer" style={{ fontWeight: 700, color: "var(--ink)", textDecoration: "underline" }}>
+                  DevFit(데브핏) — 내 코드로 준비하는 개발자 기술면접
+                </a>
               </div>
               <div className={styles.footerCopy} style={{ marginTop: '12px' }}>
                 © {new Date().getFullYear()} Team Dozer
